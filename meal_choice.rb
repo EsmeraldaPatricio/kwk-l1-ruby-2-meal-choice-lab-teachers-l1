@@ -1,4 +1,5 @@
-def # Here's an example of a 'snacks' method that returns the meal choice passed in to it and defaults to "cheetos" if nothing is passed in.
+def greeting(local_greeting,breakfast="frosted flakes",lunch="grilled cheese",dinner="salmon"
+  puts "#{local_greeting}#{breakfast}your breakfast") # Here's an example of a 'snacks' method that returns the meal choice passed in to it and defaults to "cheetos" if nothing is passed in.
 def snacks(food="Cheetos")
   "Any time, is the right time for #{food}!"
 end
